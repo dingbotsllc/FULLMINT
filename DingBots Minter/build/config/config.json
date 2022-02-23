@@ -7,12 +7,12 @@
     "ID": 1
   },
   "NFT_NAME": "DingBots",
-  "SYMBOL": "Whitelisted DingBot",
+  "SYMBOL": "DINGBOTS",
   "MAX_SUPPLY": 9950,
-  "WEI_COST": 40000000000000000,
-  "DISPLAY_COST": 0.04,
+  "WEI_COST": 55000000000000000,
+  "DISPLAY_COST": 0.055,
   "GAS_LIMIT": 175000,
-  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE": "Opensea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/dingbots",
   "SHOW_BACKGROUND": true
 }

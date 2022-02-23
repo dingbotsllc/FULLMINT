@@ -240,7 +240,7 @@ function App() {
                 color: "var(--accent-text)",
               }}
             >
-              {data.totalSupply} / {CONFIG.MAX_SUPPLY+1}
+              {data.totalSupply} / {CONFIG.MAX_SUPPLY+49}
             </s.TextTitle>
             <s.TextDescription
               style={{
@@ -253,7 +253,7 @@ function App() {
               </StyledLink>
             </s.TextDescription>
             <s.SpacerSmall />
-            {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY+1 ? (
+            {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY+49 ? (
               <>
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}

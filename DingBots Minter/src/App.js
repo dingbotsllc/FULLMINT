@@ -127,7 +127,7 @@ function App() {
     let totalGasLimit = String(gasLimit * mintAmount);
     console.log("Cost: ", totalCostWei);
     console.log("Gas limit: ", totalGasLimit);
-	if (parseInt(await blockchain.smartContract.methods.salePhase().call()) == 2) {
+	if (parseInt(await blockchain.smartContract.methods.salePhase().call()) == 1) {
 		let mintedAlready = parseInt(await blockchain.smartContract.methods.mintCountPublic(blockchain.account).call())
 		let mintsPerPublic = parseInt(await blockchain.smartContract.methods.MINTS_PER_PUBLIC().call())
 
